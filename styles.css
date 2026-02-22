@@ -2,3 +2,35 @@ p {
     font-size: 25px;
     color: #B61AB6;
 }
+
+
+.container {
+    display: flex;
+    height: 90vh;
+    flex-direction: column;
+
+
+}
+
+.item {
+    padding: 40px;
+    font-size: 25px;
+    border: 1px solid black;
+    height: fit-content;
+    width: fit-content;
+}
+
+.item_1 {
+
+    flex-direction: column;
+    align-self: flex-end;
+
+
+}
+
+.item_2 {
+    color: #121212;
+    align-self: flex-end;
+}
+
+.item_3 {}
