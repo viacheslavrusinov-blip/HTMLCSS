@@ -34,3 +34,15 @@ p {
 }
 
 .item_3 {}
+
+.container1 {
+    grid-template-columns: 1fr 2fr;
+    display: grid;
+
+}
+
+.itemf {
+    padding: 10px;
+    border: 1px solid black;
+
+}
